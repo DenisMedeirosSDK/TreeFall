@@ -6,6 +6,7 @@ import HomeMap from './screens/HomeMap';
 import Profile from './screens/Profile';
 import AddTree from './screens/AddTree';
 import Welcome from './screens/Welcome';
+import Camera from './screens/Camera';
 
 const Stack = createStackNavigator();
 
@@ -24,7 +25,8 @@ function Routes() {
                     headerTransparent: true,
                 }}
             />
-            <Stack.Screen name="Profile" component={Profile} options={{ headerTransparent: true, title:'Informações' }} />
+            <Stack.Screen name="Profile" component={Profile} options={{ headerTransparent: true, title: 'Informações' }} />
+            <Stack.Screen name="Camera" component={Camera} options={{ headerTransparent: true, title: false }} />
         </Stack.Navigator>
     );
 }

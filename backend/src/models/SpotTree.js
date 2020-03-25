@@ -5,7 +5,7 @@ const PointSchema = require('./utils/PointSchema')
 const SpotTree = new mongoose.Schema({
     thumbnail: String,
     complement: String,
-    critical: Boolean,
+    zipcode: String,
     location: {
         type: PointSchema,
         index: "2dsphere"

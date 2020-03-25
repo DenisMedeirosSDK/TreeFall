@@ -5,8 +5,19 @@ import api from '../../services/api';
 import TreeFall from '../../assets/TreeFall.jpg';
 
 export default function Profile() {
-    const [location, setLocation] = useState();
-    const [complement, setComplement] = useState();
+
+    const [tree, setTree] = useState('');
+    const [zipcode, setZipcode] = useState('');
+    const [complement, setComplement] = useState('');
+
+    async function loadTree() {
+
+        const response = await api.get('/spottree', {
+            params: { zipcode, complement }
+        })
+        setTree(response.data.tree)
+    }
+
 
     return (
         <View style={styles.container}>
@@ -14,14 +25,8 @@ export default function Profile() {
                 <Image source={TreeFall} style={styles.photo} />
             </View>
             <View style={styles.content}>
-                <Text style={styles.label}>Localização: <Text style={styles.labelBold}>Rua Genezia isabel cardoso mencacci</Text> </Text>
-                <Text style={styles.label}>Complemento: <Text style={styles.labelBold}>Ao lado da escola helio rosa baldy</Text> </Text>
-                <Text style={styles.label}>Situação: <Text style={styles.labelBold}>Árvore caida</Text> </Text>
-                <Picker >
-                    <Picker.Item label="Árvore " value="Árvore caida" />
-                    <Picker.Item label="Árvore Caida" value="Árvore caida" />
-                </Picker>
-
+                <Text style={styles.label}>Localização: <Text style={styles.labelBold}> Av. Edward fru fru </Text> </Text>
+                <Text style={styles.label}>Complemento: <Text style={styles.labelBold}> Ao lado do supermercado </Text> </Text>
             </View>
         </View>
     )
