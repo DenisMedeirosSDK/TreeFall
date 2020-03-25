@@ -2,7 +2,7 @@
 
 # TreeFall
 
-TreeFall foi desenvolvido para um desafio na universidade, para estabelecesse um conexão via rede com tema no meio ambiente.
+TreeFall foi desenvolvido para um desafio proposto na universidade, para que estabelecesse uma conexão via rede com tema no meio ambiente.
 
 ## Projeto
 Este projeto foi construido com o intuito de ajudar as empresas do meio ambiente a localizar árvore caidas e tomar as devidas providencias.
