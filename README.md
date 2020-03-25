@@ -2,6 +2,7 @@
 
 # TreeFall
 
+TreeFall foi desenvolvido para um desafio na universidade, para estabelecesse um conexão via rede com tema no meio ambiente.
 
 ## Projeto
 Este projeto foi construido com o intuito de ajudar as empresas do meio ambiente a localizar árvore caidas e tomar as devidas providencias.
@@ -24,3 +25,6 @@ Para ajudar no debug da aplicação foi usado o insomnia, para obter o projeto c
 ## Licença
 
 Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](https://github.com/DenisMedeirosSDK/TreeFall/blob/master/LICENSE) para mais detalhes.
+
+Para mais informações entre em contato via email : 
+contato.denismedeiros@hotmail.com
