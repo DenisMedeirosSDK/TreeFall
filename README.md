@@ -4,7 +4,7 @@
 
 
 ## Projeto
-Este projeto foi construido com o intuito de ajudar as empresas do meio ambiente a localizar árvore caidas e tormar as devidas providencias.
+Este projeto foi construido com o intuito de ajudar as empresas do meio ambiente a localizar árvore caidas e tomar as devidas providencias.
 
 
 ## Tecnologias
